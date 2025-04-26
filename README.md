@@ -1,17 +1,45 @@
-<<<<<<< HEAD
-# React + Vite
+📋 Task Manager App
+A simple and responsive Task Manager web application built using React.js.
+Manage your tasks efficiently with features like add, edit, delete, filter and dark mode toggle.
+All the CRUD operations are there in my task manager✅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+1) Add, edit, and delete tasks 📝
 
-Currently, two official plugins are available:
+2) Set priority (High, Medium, Low) and status (Completed, In-Progress)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3) Filter tasks by priority, status, and task name
 
-## Expanding the ESLint configuration
+4) Dark Mode and Light Mode toggle 🌙☀️
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Task-Manager-App
-Task Manager App with CRUD operations😎
->>>>>>> 56031d33ad6b55815e7b144d1de31f569897a24b
+5) Responsive design for all screen sizes 📱💻
+
+6) Smooth animations on card
+
+7) LocalStorage integration — your tasks and theme are saved automatically 🗂️
+
+🚀 Tech Stack
+• Frontend: React.js, Tailwind CSS
+• State Management: React Context API
+• Persistence: LocalStorage
+• Icons: React Icons
+
+📂 Folder Structure
+
+src/
+|-- components/
+|   |-- Header.jsx
+|   |-- TaskForm.jsx
+|   |-- TaskCard.jsx
+|   |-- DisplayCards.jsx
+|-- context/
+|   |-- ContextApi.jsx
+|-- App.jsx
+|-- index.js
+
+
+📬 Contact
+For any queries or suggestions, feel free to connect:
+Siddharth — 
+
+⭐ Don't forget to star the repo if you like the project!
