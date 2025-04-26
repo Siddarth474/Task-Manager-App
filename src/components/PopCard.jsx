@@ -7,8 +7,8 @@ const PopCard = () => {
 
   const [formData , setFormData] =  useState({
     title : '',
-    desc : 'Select Date',
-    date : '',
+    desc : '',
+    date : 'Select Date',
     status : '',
     priority : ''
   });  
