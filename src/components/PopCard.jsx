@@ -7,7 +7,7 @@ const PopCard = () => {
 
   const [formData , setFormData] =  useState({
     title : '',
-    desc : '',
+    desc : 'Select Date',
     date : '',
     status : '',
     priority : ''
@@ -78,7 +78,7 @@ const PopCard = () => {
                 <label className='text-[16px] cursor-pointer mb-1'>Date</label>
                 <input type='date' name='date' 
                   value={formData.date}
-                  onChange={handleChange}
+                  onChange={handleChange} placeholder='Select Date'
                   className='bg-white text-black py-1 px-2 mb-3 rounded-md outline-0' />
 
                 <div className='mb-3'>
