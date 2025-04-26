@@ -8,7 +8,7 @@ const PopCard = () => {
   const [formData , setFormData] =  useState({
     title : '',
     desc : '',
-    date : 'Select Date',
+    date: new Date().toISOString().split('T')[0],
     status : '',
     priority : ''
   });  
@@ -78,7 +78,7 @@ const PopCard = () => {
                 <label className='text-[16px] cursor-pointer mb-1'>Date</label>
                 <input type='date' name='date' 
                   value={formData.date}
-                  onChange={handleChange} placeholder='Select Date'
+                  onChange={handleChange}
                   className='bg-white text-black py-1 px-2 mb-3 rounded-md outline-0' />
 
                 <div className='mb-3'>
@@ -105,7 +105,7 @@ const PopCard = () => {
                       </select>
                   </div>
 
-                  <div className='flex gap-2 mt-3'>
+                  <div className='flex gap-2 mt-5'>
                     <button onClick={handleSubmit} className='bg-green-500 text-[15px] text-white p-1 rounded-md cursor-pointer hover:bg-green-600'>{editTask ? 'Update' : 'Add'}</button>
                     <button onClick={() => {setshowModel(false),setEditTask(null)}} className='bg-red-500 text-[15px] text-white p-1 rounded-md cursor-pointer hover:bg-red-600'>Cancel</button>
                   </div>
