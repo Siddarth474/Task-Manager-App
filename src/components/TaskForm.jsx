@@ -12,7 +12,7 @@ const TaskForm = () => {
     <div>
       <FaPlus onClick={() => setshowModel(true)} className={`fixed bottom-6 right-6 text-white text-3xl p-2
       ${darkMode ? 'bg-violet-700' : 'bg-black'} 
-      rounded-full w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center shadow-lg hover:bg-violet-700 hover:scale-110 duration-200 cursor-pointer`}/> 
+      rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:bg-violet-700 hover:scale-110 duration-200 cursor-pointer`}/> 
         { showModel && (
           <>
           <div className='fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40'></div>
